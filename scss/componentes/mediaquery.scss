@@ -1,0 +1,678 @@
+$layout-breakpoint-super: 1600px;
+
+
+@media screen and (max-width:$layout-breakpoint-super) {
+
+    .flip-card-back p {
+        font-size: 15px;
+     
+    }
+    
+    .flip-card-back h3 {
+        font-size: 25px;
+       
+    
+    }
+
+    .flip-card {
+        background-color: transparent;
+        width: 100%;
+        height: 250px;
+        border: 0.1px solid;
+    }
+
+}
+
+
+
+@media screen and (max-width:1200px) {
+
+    .introducion div p {
+        font-size: 15px;
+
+    }
+
+    .introducion div h2 {
+        font-size: 15px;
+        font-weight: bolder;
+
+    }
+
+    .flip-card-back p {
+        font-size: 10px;
+     
+    }
+    
+    .flip-card-back h3 {
+        font-size: 20px;
+       
+    
+    }
+
+    .flip-card {
+        background-color: transparent;
+        width: 100%;
+        height: 200px;
+        border: 0.1px solid;
+    }
+
+    .principalvacantes h2 {
+        font-size: 35px;
+    }
+
+    .descripcionvacante h3 {
+
+        font-size: 20px;
+    }
+
+    .descripcionvacante p {
+
+        font-size: 20px;
+    }
+
+    .descripcionvacante img {
+        width: 500px;
+        height: 370px;
+        margin-right: 10px;
+    }
+
+}
+
+
+@media screen and (max-width:1143px) {
+
+    .containercardvacantes h3{
+        font-size: 15px;
+    }
+
+    
+.cardvacantes img {
+
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+}
+
+
+
+}
+
+
+@media screen and (max-width:1007px) {
+
+    .copyright-container {
+        flex-direction: column;
+    }
+
+    footer {
+        height: 50vh;
+    }
+
+    .flip-card {
+        background-color: transparent;
+        width: 100%;
+        height: 180px;
+        border: 0.1px solid;
+    }
+
+    .descripcionvacante h3 {
+
+        font-size: 15px;
+    }
+
+    .descripcionvacante p {
+
+        font-size: 15px;
+    }
+
+    .descripcionvacante img {
+        width: 450px;
+        height: 350px;
+        margin-right: 10px;
+    }
+
+    .principalvacantes h2 {
+        font-size: 25px;
+    }
+    .beneficiosvacantes h2{
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+
+    .hablemos h2 {
+        font-size: 40px;
+    }
+    .principalservicios h2{
+        font-size: 30px;  
+    }
+}
+
+
+@media screen and (max-width:863px) {
+
+    .introducion {
+        flex-direction: column;
+        height: 80vh;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .introducion div {
+        width: 100%;
+    }
+
+    .descripcion h2 {
+        font-size: 20px;
+    }
+
+    .descripcion select {
+        font-size: 12px;
+    }
+
+
+    .cards {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    } 
+.principalproductos h2{
+    font-size: 30px;
+}
+.descripcionproductos h2{
+    font-size: 20px;   
+}
+
+
+.descripcionvacante p {
+
+    font-size: 12px;
+}
+
+descripcionvacante h3{
+    font-size: 12px;
+}
+
+.descripcionvacante img {
+    width: 400px;
+    height: 300px;
+    margin-right: 5px;
+}
+
+
+
+
+}
+
+@media screen and (max-width:780px) {
+
+    header h1 {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+    .hablemos h2 {
+        font-size: 30px;
+    }
+
+
+    .principalservicios h2{
+        font-size: 25px;  
+    }
+ 
+    .descripcionservicios h2{
+        font-size: 25px;
+    } 
+
+    .containercardservicios h3 {
+
+        font-size: 15px;
+        text-align: justify;
+        margin-bottom: 5px;
+    }
+
+
+
+    .containercardservicios p{
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .cardservicios{
+     height: 95%;   
+    }
+    .cardservicios img{
+        width: 120px;
+        height: 120px;
+        padding: 10px;
+    }
+
+    .descripcionvacante img {
+        width: 350px;
+        height: 250px;
+        margin-right: 5px;
+    }
+
+
+    .vacantescard {
+
+    
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        
+    }   
+
+
+}
+
+@media screen and (max-width:733px) {
+
+    .servicios-contenedor div h3 {
+        font-size: 10px;
+    }
+
+    .servicios h2 {
+        font-size: 15px;
+    }
+
+    .descripcion label {
+        font-size: 12px;
+        margin-bottom: 10px;
+        padding: 0px;
+        width: 70%;
+
+    }
+
+    .descripcion h2 {
+        font-size: 15px;
+    }
+
+    .descripcion select {
+        font-size: 10px;
+        width: 70%;
+    }
+
+
+    .descripcion textarea {
+        width: 70%;
+        font-size: 10px;
+
+    }
+
+    .descripcion input {
+        font-size: 10px;
+        width: 70%;
+    }
+
+    .descripcion {
+        margin-left: 10%;
+        margin-right: 10%;
+
+
+    }
+
+    .flip-card {
+        background-color: transparent;
+        width: 100%;
+        height: 150px;
+        border: 0.1px solid;
+    }
+
+    .descripcionvacante{
+    padding: 20px;
+    }
+
+    .cardvacantes img {
+
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:680px) {
+
+
+    footer {
+        height: 60vh;
+    }
+
+    footer h2 {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .ubicacion-container {
+        flex-direction: column;
+        justify-content: end;
+        width: 100%;
+
+    }
+
+    .descripcion label {
+        font-size: 10px;
+        margin-bottom: 5px;
+        padding: 0px;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 70%;
+
+    }
+
+    .descripcion select {
+        font-size: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 70%;
+    }
+
+    .descripcion input {
+        font-size: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 70%;
+    }
+
+    .descripcion {
+        margin-left: 10%;
+        margin-right: 10%;
+
+
+    }
+
+    .principal h2 {
+        font-size: 30px;
+    }
+
+    .descripcion textarea {
+        width: 70%;
+        height: 100px;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+    .principalproductos h2{
+        font-size: 20px;
+    }
+
+    .containercardservicios h3 {
+
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .containercardservicios p{
+        font-size: 10px;
+        text-align: justify;
+    }
+
+ 
+    .cardservicios img{
+        width: 80px;
+        height: 80px;
+    }
+
+
+    
+
+    .descripcionvacante {
+        flex-direction: column;
+        height: 50vh;
+        padding: 0px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 150px;
+    border: 0.1px solid;
+}
+
+.flip-card-back p {
+    font-size: 8px;
+ 
+}
+
+.flip-card-back h3 {
+    font-size: 12px;
+   
+
+}
+
+.servicioscard {
+
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.containercardservicios h3 {
+
+    font-size: 15px;
+    text-align: justify;
+}
+
+.containercardservicios p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+.vacantescard {
+
+    
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    
+}   
+
+.beneficiosvacantes{
+    height: 100vh; 
+}
+
+.cardvacantes img {
+
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+}
+
+}
+
+
+
+
+@media screen and (max-width:455px) {
+
+    .servicios h2 {
+        font-size: 15px;
+    }
+
+
+    .descripcion label {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 90%
+    }
+
+    .descripcion select {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 90%
+    }
+
+    .descripcion input {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%
+    }
+
+    .descripcion {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 90%
+    }
+
+
+    .descripcion textarea {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 90%
+    }
+
+    .cards {
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .flip-card-front img {
+        padding: 5%;
+        width: 50%;
+    }
+
+    .principalproductos h2{
+        font-size: 15px;
+    }
+    .descripcionproductos h2{
+        font-size: 15px;   
+    }
+
+    .principalservicios h2{
+        font-size: 15px;
+    }
+    .descripcionservicios h2{
+        font-size: 15px;
+    }
+
+    .descripcionvacante p {
+
+        font-size: 10px;
+    }
+    
+    .descripcionvacante h3{
+        font-size: 10px;
+    }
+
+}
+
+
+@media screen and (max-width:400px) {
+
+    .servicios {
+        height: 60vh;
+    }
+
+    .servicios-contenedor {
+
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    footer {
+        height: 60vh;
+    }
+
+
+
+    .descripcion label {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%
+    }
+
+    .descripcion select {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%
+    }
+
+    .descripcion input {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%
+    }
+
+    .descripcion {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%
+    }
+
+    .principal h2 {
+        font-size: 20px;
+    }
+
+    .descripcion textarea {
+        margin-left: 0%;
+        margin-right: 0%;
+        width: 100%
+    }
+
+    .containercardservicios h3 {
+
+        font-size: 10px;
+        text-align: justify;
+    }
+    
+    .containercardservicios p{
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .cardservicios img{
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .containercardvacantes h3 {
+
+        font-size: 10px;
+     
+      
+    }
+.principalvacantes h2{
+    font-size: 15px;
+}
+
+.cardvacantes img {
+
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+}
+    
+
+.beneficiosvacantes{
+    height: 85vh; 
+}
+}
+
+@media screen and (max-width:320px) {
+
+    header h1 {
+        font-size: 30px;
+        font-weight: bolder;
+
+    }
+
+    .hablemos h2 {
+        font-size: 15px;
+
+    }
+
+
+}
